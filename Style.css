@@ -1,0 +1,129 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.Riquadro{
+  width: 850px;
+  height: 660px;
+  background-color: rgba(0, 0, 0, 0.50);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.container-logo{
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  width: 22%;
+  margin: auto;
+}
+
+.Riquadro h1{
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(8, 220, 4);
+}
+
+
+.container-pulsanti{
+  width: 700px;
+  height: 40px;
+  background-color: rgb(8, 220, 4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+#Pulsanti-main{
+  margin: 2px;
+}
+
+
+.container-info{
+  width: 700px;
+  margin: auto;
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  margin-left: auto;
+  margin-top: 20px;
+  font-size: 17px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.container-info >#checkbox-nome{
+  margin-left: 0px;
+  margin-right: 5px;
+}
+.freccia:before{
+  content:"\21A6";
+  margin-right: 5px;
+}
+
+.indirizzo{
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  width: 700px;
+  margin: auto;
+  margin-top: 6px;
+  font-size: 14px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+.stato-carica{
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  width: 700px;
+  margin: auto;
+  margin-top: 6px;
+  font-size: 14px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+#barra-Gino{
+  display: block;
+  margin-left: 75px;
+  margin-top: 4px;
+  margin-bottom: 30px;
+  width: 260px;
+  height: 20px;
+  background-color: rgb(245,180,83);
+  border-radius: 5px;
+}
+
+#barra-Mike{
+  display: block;
+  margin-left: 75px;
+  margin-top: 4px;
+  margin-bottom: 30px;
+  width: 350px;
+  height: 20px;
+  background-color: rgb(30,195,30);
+  border-radius: 5px;
+}
+
+#barra-Fede{
+  display: block;
+  margin-left: 75px;
+  margin-top: 4px;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 20px;
+  background-color: rgb(187,68,87);
+  border-radius: 5px;
